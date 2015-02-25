@@ -27,3 +27,58 @@
 
 - enables users to create and maintain a database
 
+### 定義資料庫（設計）
+
+- 定義資料的:
+
+    - 型態(types): integer, string...
+
+    - 結構(structures)
+
+        - 不需要跟資料庫系統講清楚，因為用SQL溝通時不會使用到array
+
+    - 限制(constraints)
+
+        - 不是limitations，而是指資料庫中規則的constraints
+
+### 元資料(Meta-data)
+
+- data用來描述現實世界裡的fact -> meta-data則是用來描述data的data
+
+- 設計資料庫的主要地方，根據meta-data來建立資料庫
+
+> manipulate為什麼負面？
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
