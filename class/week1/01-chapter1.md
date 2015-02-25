@@ -79,12 +79,17 @@
 ### 誰在使用資料庫
 
 - Database administrator(DBA)
-    
+
     - 權限控管的關係
 
     - 監測使用
 
+        - ex: 資料庫系統會越來越慢，可能與資料的分佈跟查詢處理有關係，這會牽扯到引擎的運算，所以要定時去監測做最佳化（或甚至重啟）
+
     - 軟硬體的資源
+
+> Oracle有相關的認證
+
     
 - Database designers (本課程的目標)
 
@@ -92,8 +97,34 @@
 
     - meta data的設計（資料庫的結構 != 資料結構）
 
+- End users
 
+- Application programmers
+
+### Workers behind the Scene(系統面)
+
+- DBMS system designers and implementers
+
+- Tool developers
+
+- Operators and maintenance personnel
+
+## Advantages of Using the DBMS Approach
+
+- 控制redundancy(balance 讀寫功能)
+
+- 已經提供既有的data structures
     
+    - Indexes
+
+    - Buffering and caching
+
+    - Query and GUI
+
+- backup and recovery subsystem
+
+
+
 
 
 
