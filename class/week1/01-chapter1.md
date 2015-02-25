@@ -149,8 +149,53 @@
 
 ## A brief History of Database Applications
 
+- 早期的hierarchical and network systems（只剩下早期就資訊化的行業還在用）
 
+    - 台灣的話就還剩下某些銀行業
 
+    - hierarchical : From tree
+
+    - network : From graph
+
+- 關聯式資料庫的出現
+
+    - 分離資料和程式的儲存
+
+    - 提供了很強的數學理論基礎建設在裡面（本課稍後會講到的關聯代數）
+
+- 80年代 
+    
+    - Oracle 的relational database
+
+    - [Sybase](http://zh.wikipedia.org/zh-tw/Sybase)
+
+- 90年代 
+
+    - Object-oriented的出現
+
+        - 發現只適用於某些領域（ex: 多媒體、醫療影像系統）
+
+        - 間接促成了物件導向的關聯式資料庫(ORM)
+
+    - microsoft跟sybase合作做出sqlserver，但是後來分道揚鑣
+    
+- 2000年 ~
+
+    - XML的出現
+
+        - 半結構化的資料
+
+        - 效率不快，因為其非結構化
+
+        - 雖然純XML的資料庫也慢慢削減，但是relational database也開始支援XML的markup
+    
+    - 以資料庫為核心的系統
+
+        - Enterprise resource planning (ERP)
+
+        - Customer relationship management(CRM)
+
+## 什麼時候不要使用DBMS
 
 
 
