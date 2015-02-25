@@ -60,7 +60,7 @@
 
 - 使用DBMS的好處
 
-    - 自我定義(meta-data)
+    - 自我定義(self-descripting) :meta-data
 
     - 把program和data分開(低耦合 loose coupling)
 
@@ -75,6 +75,22 @@
         - View : 虛擬的table，存放在記憶體裡面。
 
             - 讓使用者看到自己想看，或者有權限看到的東西
+
+### 誰在使用資料庫
+
+- Database administrator(DBA)
+    
+    - 權限控管的關係
+
+    - 監測使用
+
+    - 軟硬體的資源
+    
+- Database designers (本課程的目標)
+
+    - 確定要放和儲存的資料
+
+    - meta data的設計（資料庫的結構 != 資料結構）
 
 
     
