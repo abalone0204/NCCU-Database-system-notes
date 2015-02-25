@@ -123,13 +123,31 @@
 
 - backup and recovery subsystem
 
+- 完整性的限制(Integrity constraints)
+
+    - 規定的檢查(Rule)
+
+        - Referential integrity constraint
+
+        - Key or uniqueness constraint（看到key就想到uniqueness）
+
+            - 電話沒有唯一性，因為它可以被回收重新讓其他人使用
+
+        - Business rules
+
+        - Inherent rules
+
+- 降低程式開發時間
+
+- Flexibility
+
+- Availability of up-to-date information
+
+- Economies of scale
 
 
 
-
-
-
-
+## A brief History of Database Applications
 
 
 
