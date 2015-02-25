@@ -1,6 +1,18 @@
 ## Chapter 1 
 
+### Database
+
 - 資料庫：放資料的地方
+
+- 放什麼資料？
+
+    - 有關聯的(related)
+
+    - 真實的(fact)
+
+    - 真實世界裡的某個縮影or面向 Miniworld of discourse(UoD)
+
+- 為特定目的建立的
 
 > Data warehouse: 資料倉儲
 > 跟資料庫不同，資料庫以「交易」為中心(OLTP) -> 重視Write
