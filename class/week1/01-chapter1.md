@@ -47,7 +47,39 @@
 
 - 設計資料庫的主要地方，根據meta-data來建立資料庫
 
+### Manipulating
+
+- Query and update
+
+- Generate reports （這堂課不會講）
+
 > manipulate為什麼負面？
+
+
+### 什麼時候可以用到資料庫
+
+- 使用DBMS的好處
+
+    - 自我定義(meta-data)
+
+    - 把program和data分開(低耦合 loose coupling)
+
+    - 解決在多人使用時transaction的問題
+
+        - 其實也只有多人使用才有transaction的問題
+        
+        - mysql : 叫做mysql而不叫做oursql，就是因為它本來就是支援單人使用，現在有分transaction 跟沒transaction管理的兩種引擎
+    
+    - support of multiple views of data
+
+        - View : 虛擬的table，存放在記憶體裡面。
+
+            - 讓使用者看到自己想看，或者有權限看到的東西
+
+
+    
+
+
 
 
 
