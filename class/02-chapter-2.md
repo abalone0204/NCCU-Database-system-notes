@@ -141,9 +141,92 @@
 
             - Java DataBase Connection
 
+    - `Parametric User`
 
+        - `Stored procedure` -> `Compile Procedures`
 
+        - 使用者
 
+            - 讓不太懂SQL或PG的人也能使用（通過stored procedure）
+
+            - program也可以使用（e.q 常用的查詢
+
+        - 大部份都是用特定的語言寫的（非高階語言）
+
+            - e.q:
+
+                - Oracle: PL SQL
+
+                - Micosoft: T SQL
+
+> ###Common paths to use DB today?
+> 1. application programs -> query & DML compiler => Query Optimizer -> DB Engine
+> 2. Interactive Query UI -> Query Compiler -> Query Optimizer -> DB Engine
+> 3. Stored Procedure -> DB Engine
+
+### Database System Utilities
+
+- Performance monitoring
+
+    - provide statistics to the DBA
+
+#### Centralized and Cliient/Server Architectures for DBMSs
+
+- Centralized 
+
+    - 全部都放在同一台機器上(include server and client)
+
+- Client/Server (2 tiers)
+    
+    - Figure 2.6
+
+    - Client : 即放application programs的地方，越來越複雜，演變出後來的3-tier architecture
+
+    - Server : 提供硬體、軟體服務，這裏就是DBMS
+
+        - open database connectivity: 永遠記得檢查driver有沒有裝 :P
+
+- Three-tier(Presentation layer, Business Logic Layer, Database Services Layer) 
+
+    - Client : GUI, web inter face
+    
+    - Application Server or Web Server
+
+        - 大部份應用程式的邏輯在這裡（e.q : apache）
+
+    - Database Server : DBMS
+
+### Classification of Database Management Systems
+
+- Data model 
+
+    - Relational
+
+    - Object
+
+    - Hierarchical and network (legacy)
+
+    - Native XML DBMS
+
+- Number of users
+
+- Number of sites 
+    
+    - Centralized
+
+    - Distributed
+
+        - Homogeneous : 都是同樣的機器
+
+        - Hetergeneous: 機器可能是不一樣的
+    
+    - Cost
+
+        - Open source
+
+        - Different types of licensing
+
+            - Refer: http://en.wikipedia.org/wiki/Free_software_license
 
 
 
