@@ -199,11 +199,79 @@
     - Underline attribute
 
 
+### Integrity, Referential Integrity, and Foreign Keys
 
+- Entity integrity constraint(實體完整性限制)
 
+    - No primary key value can be NULL（Primary key一定不能是Null）
 
+- Referential integrity constraint(參考完整性限制)
 
+    - 針對`fk`(foreign key)
 
+    - fk一定要指定某個table的pk（也可能指回自己的pk），不能指向找不到的值
+
+        - e.q : 
+
+            - fk可以是Null，但是fk如果為5，而要指向的pk卻不存在5時，就不行
+
+            - 因為這樣違反了實體完整性限制(entity integrity constraint)
+    
+- Foreign key rules
+
+    - domain要與指向的PK相同
+
+- integrity constraints全部會交由DBMS來檢查
+
+- Semantic integrity constraints
+
+    - Triggers
+
+        - Active Database(當加入某些資料滿足某些條件時，資料庫會主動(active)去做一些事情)
+
+    - Assertions
+
+        - Complex checking
+
+### Update Operations, Transactions, and Dealing with Constraint Violations
+
+- Retrievals and updates
+
+- Basic operations that change the state of relations in the database
+
+    - Insert
+
+    - Delete
+
+    - Update(modify)
+
+### Relational model graph
+
+- `Figure 3.6`
+
+- `Figure 3.7`（缺乏domain，需要另外寫下來）
+
+    - 畫底線的: pk
+
+    - 出去的一定是fk
+
+### Insert Operation
+
+- 花時間，因為需要許多檢查（可能會違反任一constraints）
+
+### Delete Operation
+
+- 可能會讓fk找不到值（Referential integrity constraint)
+
+- Solution
+    
+    - Restrict: reject deletion
+
+    - Cascade: 連坐
+
+### Summary
+
+- 見ppt
 
 
 
