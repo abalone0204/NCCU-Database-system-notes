@@ -119,14 +119,84 @@
 
     - rule : 規則
 
+    - Type 1
+
+        - DBMS can help (Required by data model and database)
+
+    - Type 2
+
+        - DBMS can't do much(business logic)
+
 - Key(想到唯一性)
 
     - Superkey of R
 
     - Removeeing
 
+#### Domain Constraints
+
+- Domain: 值域
+
+    - Numeric
+
+    - Characters
+
+    - Booleans
+
+    - Fixed-length strings(`CHAR`)
+
+        - 優點：通常比較快
+
+        - 缺點：缺乏彈性
+
+        - e.q: `CHAR(10)`: 一定會湊滿十個，沒有的話會塞空白
+
+    - Variable-length strings(`VARCHAR`)
+
+        - 優點：彈性
+
+        - 缺點：可能會比較慢
+
+        - e.q: `VARCHAR(10)`: 最多十個，沒有滿也不會補空白
+
+    - Date, time, timestamp
+
+        - Take advantage of built-in types data
+
+    - Money
+
+    - Other special data types
+
+        - BLOB(pronounce: Ber-Lar-Ber): used to store sveral kb/mbs of `binary data`
+
+            - e.q: pictures, video, audio...
+
+        - CLOB(Clar-Ber): store large chracters data
+
+            - e.q: documents
 
 
+#### Key Constraints and Constraints on NULL Values
+
+- No two tuples can have the same comnination of values for all their attributes
+
+- Superkey
+
+- Key
+
+    - Two distinct tuples in any state of relation(time) cannot have identical values for all attributes in key(在所有時間內都要是`唯一`的)
+
+    - Minima superkey
+
+- Candidate key
+
+    - 同一筆資料中有許多欄位都具有唯一性
+
+- Primary key of the relation
+
+    - Designated among candidate keys
+
+    - Underline attribute
 
 
 
